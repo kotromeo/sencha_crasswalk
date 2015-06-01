@@ -8,3 +8,9 @@
 
 // Examples of using the icon mixin:
 // @include icon('user');
+
+.x-msgbox-text {
+	.x-innerhtml {
+		word-break: break-word;
+	}
+}
