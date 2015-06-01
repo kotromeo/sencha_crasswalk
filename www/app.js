@@ -44,7 +44,8 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('Crosswalk.view.Main'));
+        //Ext.Viewport.add(Ext.create('Crosswalk.view.Main'));
+        Ext.Msg.alert('Ext.os:', JSON.stringify(Ext.os), Ext.emptyFn);
     },
 
     onUpdated: function() {
